@@ -50,3 +50,11 @@ GO
 4. Following the repository pattern, I created an interface for a reports repository and implemented it.
 5. To have this repository available I had to create a scoped service for use with dependency injection.
 6. Finally, adding a controller allows the API to be accessible without any authentication.
+
+#### Create SPA ####
+My familiarity with Angular means that will be my choice of SPA.
+1. I begin using the Angular CLI `ng new client`.
+2. Now my API must accept requests from cross origins during development, so I add a CORS policy to the API.
+3. To check everything works, I create a simple service that sends a HTTP GET request to the API.
+4. For my choice of styling, I like to use Tailwind CSS, so I implement this.
+5. Finally, using `ng g c <component-name>` I can add my table component which contains the logic to retrieve and display the data.
