@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Added second procedure">
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Updated service to accept parameter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/components/class-registration-reports/class-registration-reports.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/class-registration-reports/class-registration-reports.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/components/class-registration-reports/class-registration-reports.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/class-registration-reports/class-registration-reports.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/core/services/reports.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/core/services/reports.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710611883901</updated>
-      <workItem from="1710611884937" duration="6466000" />
+      <workItem from="1710611884937" duration="7852000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular application">
       <option name="closed" value="true" />
@@ -179,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710621438083</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated service to accept parameter">
+      <option name="closed" value="true" />
+      <created>1710622224999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710622224999</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +207,7 @@
     <MESSAGE value="Updated ReadME" />
     <MESSAGE value="Removed unused test request" />
     <MESSAGE value="Added second procedure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added second procedure" />
+    <MESSAGE value="Updated service to accept parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated service to accept parameter" />
   </component>
 </project>

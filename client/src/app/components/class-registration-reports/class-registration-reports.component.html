@@ -1,4 +1,19 @@
-<table class="table-auto w-full">
+
+<label class="block text-gray-900 font-light mb-1 font-display" for="minimumRegistrations">
+  Minimum Registrations
+</label>
+<div class="flex justify-between items-center gap-2">
+  <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" id="minimumRegistrations" type="number" placeholder="2" #minimumInput>
+  <div class="flex gap-2">
+    <button (click)="updateFilter(minimumInput.value)" class="bg-blue-400 hover:bg-blue-500 py-2 px-4 rounded-md text-white font-display">
+      Update
+    </button>
+    <button (click)="clearFilter()" class="border-gray-500 border text-gray-700 py-2 px-4 rounded-md font-display hover:bg-gray-500 hover:text-white">
+      Clear
+    </button>
+  </div>
+</div>
+<table class="table-auto w-full mt-4">
   <thead class="bg-gray-200 rounded md:text-lg text-sm">
     <tr class="text-gray-700 text-left">
       <th class="rounded-tl-xl">Class</th>
