@@ -42,3 +42,11 @@ AS
 GO
 ```
 6. Finally, we can call this procedure now as `EXEC ClassRegistrationReport`
+
+#### Create WebAPI ####
+1. Creating the scaffolding for a dotnet webapi can be done through the Rider UI, selecting create new project and choosing .NET web API with controllers
+2. Then I proceeded to install the NuGet packages required for Entity Framework to facilitate my connection to the database.
+3. I then implemented a DataContext with a DbSet of type 'ClassRegistrationsReport', which is modelled off the original spec
+4. Following the repository pattern, I created an interface for a reports repository and implemented it.
+5. To have this repository available I had to create a scoped service for use with dependency injection.
+6. Finally, adding a controller allows the API to be accessible without any authentication.
