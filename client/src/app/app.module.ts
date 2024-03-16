@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ClassRegistrationReportsComponent } from './components/class-registration-reports/class-registration-reports.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClassRegistrationReportsComponent
   ],
   imports: [
     BrowserModule,
