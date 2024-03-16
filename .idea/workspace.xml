@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Updated ReadME">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Changed placeholder to 5 as a nod">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "create-spa",
+    "git-widget-placeholder": "bonus-tasks",
     "last_opened_file_path": "D:/User/Documents/Code Projects/CoreRFID-Exercise/source",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -72,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710611883901</updated>
-      <workItem from="1710611884937" duration="4795000" />
+      <workItem from="1710611884937" duration="8620000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular application">
       <option name="closed" value="true" />
@@ -162,7 +161,47 @@
       <option name="project" value="LOCAL" />
       <updated>1710620402718</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Removed unused test request">
+      <option name="closed" value="true" />
+      <created>1710620471809</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710620471809</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added second procedure">
+      <option name="closed" value="true" />
+      <created>1710621438083</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710621438083</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated service to accept parameter">
+      <option name="closed" value="true" />
+      <created>1710622224999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710622224999</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added clear filter button">
+      <option name="closed" value="true" />
+      <created>1710623642181</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710623642181</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changed placeholder to 5 as a nod">
+      <option name="closed" value="true" />
+      <created>1710623866739</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710623866739</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +219,11 @@
     <MESSAGE value="Implemented table component" />
     <MESSAGE value="Updated styling" />
     <MESSAGE value="Updated ReadME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadME" />
+    <MESSAGE value="Removed unused test request" />
+    <MESSAGE value="Added second procedure" />
+    <MESSAGE value="Updated service to accept parameter" />
+    <MESSAGE value="Added clear filter button" />
+    <MESSAGE value="Changed placeholder to 5 as a nod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed placeholder to 5 as a nod" />
   </component>
 </project>

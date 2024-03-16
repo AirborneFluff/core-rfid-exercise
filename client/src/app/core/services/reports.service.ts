@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ClassRegistrationReport } from '../models/class-registration-report';
 
@@ -11,7 +11,8 @@ export class ReportsService {
 
   constructor(private http: HttpClient) { }
 
-  public getClassRegistrationReports(): Observable<ClassRegistrationReport[]> {
-    return this.http.get<ClassRegistrationReport[]>(this.baseUrl + 'reports');
+  public getClassRegistrationReports(minimumRegistrations: number = 0): Observable<ClassRegistrationReport[]> {
+    const params = new HttpParams().append("minimumRegistrations", minimumRegistrations);
+    return this.http.get<ClassRegistrationReport[]>(this.baseUrl + 'reports', {params: params});
   }
 }
