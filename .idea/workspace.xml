@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Updated ReadME">
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Removed unused test request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="create-spa" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "create-spa",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/User/Documents/Code Projects/CoreRFID-Exercise/source",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710611883901</updated>
-      <workItem from="1710611884937" duration="4795000" />
+      <workItem from="1710611884937" duration="5607000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular application">
       <option name="closed" value="true" />
@@ -162,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710620402718</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Removed unused test request">
+      <option name="closed" value="true" />
+      <created>1710620471809</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710620471809</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +188,7 @@
     <MESSAGE value="Implemented table component" />
     <MESSAGE value="Updated styling" />
     <MESSAGE value="Updated ReadME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadME" />
+    <MESSAGE value="Removed unused test request" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused test request" />
   </component>
 </project>
