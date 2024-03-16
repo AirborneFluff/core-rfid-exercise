@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Added tailwind">
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Implemented table component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710611883901</updated>
-      <workItem from="1710611884937" duration="4334000" />
+      <workItem from="1710611884937" duration="4443000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular application">
       <option name="closed" value="true" />
@@ -133,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710618337587</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added styling options">
+      <option name="closed" value="true" />
+      <created>1710620023000</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710620023000</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented table component">
+      <option name="closed" value="true" />
+      <created>1710620039577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710620039577</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +160,8 @@
     <MESSAGE value="Fixed issue with generating components" />
     <MESSAGE value="Updated to SCSS for tailwind" />
     <MESSAGE value="Added tailwind" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tailwind" />
+    <MESSAGE value="Added styling options" />
+    <MESSAGE value="Implemented table component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented table component" />
   </component>
 </project>
