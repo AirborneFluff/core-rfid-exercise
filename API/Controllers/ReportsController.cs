@@ -14,9 +14,9 @@ public sealed class ReportsController : ControllerBase
     }
     
     [HttpGet]
-    public async Task<ActionResult> GetReport()
+    public async Task<ActionResult> GetReport([FromQuery] int minimumRegistrations = 0)
     {
-        var reports = await _reportsRepository.GetClassRegistrationReport();
+        var reports = await _reportsRepository.GetClassRegistrationReport(minimumRegistrations);
         return Ok(reports);
     }
 }

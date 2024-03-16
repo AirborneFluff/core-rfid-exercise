@@ -19,4 +19,11 @@ public sealed class ReportsRepository : IReportsRepository
             .FromSqlRaw("exec ClassRegistrationReport")
             .ToListAsync();
     }
+
+    public Task<List<ClassRegistrationReport>> GetClassRegistrationReport(int minimumRegistrations)
+    {
+        return _context.ClassRegistrationReports
+            .FromSql($"exec ClassRegistrationReport2 @MinimumRegistrations={minimumRegistrations}")
+            .ToListAsync();
+    }
 }
