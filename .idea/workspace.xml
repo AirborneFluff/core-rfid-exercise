@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Added clear filter button">
-      <change beforePath="$PROJECT_DIR$/client/src/app/components/class-registration-reports/class-registration-reports.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/components/class-registration-reports/class-registration-reports.component.html" afterDir="false" />
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Changed placeholder to 5 as a nod">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710611883901</updated>
-      <workItem from="1710611884937" duration="8108000" />
+      <workItem from="1710611884937" duration="8620000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular application">
       <option name="closed" value="true" />
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710623642181</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changed placeholder to 5 as a nod">
+      <option name="closed" value="true" />
+      <created>1710623866739</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710623866739</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +223,7 @@
     <MESSAGE value="Added second procedure" />
     <MESSAGE value="Updated service to accept parameter" />
     <MESSAGE value="Added clear filter button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added clear filter button" />
+    <MESSAGE value="Changed placeholder to 5 as a nod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed placeholder to 5 as a nod" />
   </component>
 </project>
