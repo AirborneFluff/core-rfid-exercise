@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ReportsService } from './core/services/reports.service';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +7,4 @@ import { ReportsService } from './core/services/reports.service';
 })
 export class AppComponent {
   title = 'client';
-
-  constructor(private reports: ReportsService) {
-    this.reports.getClassRegistrationReports().subscribe(val => console.log(val))
-  }
 }
