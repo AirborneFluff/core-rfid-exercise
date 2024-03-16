@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Setup basic http service">
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Fixed issue with generating components">
+      <change afterPath="$PROJECT_DIR$/client/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710611883901</updated>
-      <workItem from="1710611884937" duration="809000" />
+      <workItem from="1710611884937" duration="2599000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular application">
       <option name="closed" value="true" />
@@ -99,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710612579490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved to conventional Angular layout">
+      <option name="closed" value="true" />
+      <created>1710612711414</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710612711414</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed issue with generating components">
+      <option name="closed" value="true" />
+      <created>1710612841229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710612841229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +132,8 @@
     <MESSAGE value="Added Angular application" />
     <MESSAGE value="Added CORS policy" />
     <MESSAGE value="Setup basic http service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup basic http service" />
+    <MESSAGE value="Moved to conventional Angular layout" />
+    <MESSAGE value="Fixed issue with generating components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue with generating components" />
   </component>
 </project>
