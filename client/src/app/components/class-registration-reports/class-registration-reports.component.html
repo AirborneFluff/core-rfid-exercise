@@ -1,0 +1,18 @@
+<table class="table-auto w-full">
+  <thead class="bg-gray-200 rounded md:text-lg text-sm">
+    <tr class="text-gray-700 text-left">
+      <th class="rounded-tl-xl">Class</th>
+      <th>Teacher</th>
+      <th>Registrations</th>
+      <th class="rounded-tr-xl">Number Paid</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let report of (reports$ | async)">
+      <td>{{report.class}}</td>
+      <td>{{report.teacherName}}</td>
+      <td>{{report.registrations}}</td>
+      <td>{{report.numberPaid}}</td>
+    </tr>
+  </tbody>
+</table>

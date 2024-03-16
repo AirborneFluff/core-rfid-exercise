@@ -1,0 +1,12 @@
+th,
+td {
+  @apply font-normal py-2 px-3
+}
+
+thead th {
+  @apply py-3 font-display font-bold
+}
+
+tbody tr:nth-child(even) {
+  @apply bg-gray-100;
+}
