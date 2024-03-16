@@ -25,7 +25,6 @@ export class ClassRegistrationReportsComponent {
     let minimumRegistrations = Number.parseInt(value);
     if (isNaN(minimumRegistrations)) minimumRegistrations = 0;
     minimumRegistrations = Math.max(0, minimumRegistrations);
-    console.log(minimumRegistrations)
 
     this.minimumRegistrations$.next(minimumRegistrations);
   }
