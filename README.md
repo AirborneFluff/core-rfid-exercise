@@ -12,6 +12,9 @@ An exercise given by CoreRFID to demonstrate skills in SQL, .NET and SPA develop
 - ~~Create duplicate procedure which accepts filter parameter~~
 - ~~Modify SPA to allow filter parameter to be passed in~~
 
+### Personal Challenge ###
+- Create the client using React
+
 ## Progress ##
 #### Choose SQL Database flavour ####
 As this project is simply a development test, I will use whatever SQL database I have installed.
@@ -86,3 +89,7 @@ is no concern due with this interpolation because of the built-in string sanitat
 - I updated the service to accept an optional number parameter with the value attached using the HttpParams class.
 - After this, I added the required HTML and styling, as well as the typescript logic to update the API call.
 - With using RxJS, I can easily filter out duplicate values to prevent multiple calls to the API when submitting a new value.
+
+#### PERSONAL CHALLENGE* - Create React Client ####
+- To being my React app, I use the basic 'create-react-app' library.
+- 
