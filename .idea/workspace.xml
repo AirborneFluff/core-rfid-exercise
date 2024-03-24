@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Changed placeholder to 5 as a nod">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Added React app and updated readme">
+      <change afterPath="$PROJECT_DIR$/react-client/src/components/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-client/src/components/ClassRegistrationReport.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/react-app-env.d.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +42,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dmShzgN0vKpIh9T5g826myJsZ7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "bonus-tasks",
+    "git-widget-placeholder": "add-react-client",
     "last_opened_file_path": "D:/User/Documents/Code Projects/CoreRFID-Exercise/source",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -58,8 +68,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\Documents\Code Projects\CoreRFID-Exercise\source\react-client\src\components" />
       <recent name="D:\User\Documents\Code Projects\CoreRFID-Exercise\source\client\src\app" />
     </key>
   </component>
@@ -201,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710623866739</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added React app and updated readme">
+      <option name="closed" value="true" />
+      <created>1711309043313</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711309043313</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +251,8 @@
     <MESSAGE value="Updated service to accept parameter" />
     <MESSAGE value="Added clear filter button" />
     <MESSAGE value="Changed placeholder to 5 as a nod" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed placeholder to 5 as a nod" />
+    <MESSAGE value="Removed debug" />
+    <MESSAGE value="Added React app and updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added React app and updated readme" />
   </component>
 </project>
