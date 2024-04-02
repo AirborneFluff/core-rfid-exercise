@@ -1,5 +1,5 @@
 import React from 'react';
-import ClassRegistrationReport from './ClassRegistrationReport';
+import ClassRegistrationReport from './class-registration-report/ClassRegistrationReport';
 
 export default function App() {
   return (

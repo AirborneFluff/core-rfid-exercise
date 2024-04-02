@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Added React app and updated readme">
-      <change afterPath="$PROJECT_DIR$/react-client/src/components/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-client/src/components/ClassRegistrationReport.tsx" afterDir="false" />
+    <list default="true" id="bbbc9065-cf8b-4baa-864f-31365a5f5a04" name="Changes" comment="Added and implemented react components with api request">
+      <change afterPath="$PROJECT_DIR$/react-client/src/components/class-registration-report/AppButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-client/src/components/class-registration-report/ClassRegistrationReport.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-client/src/components/class-registration-report/ClassRegistrationsTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-client/src/components/class-registration-report/NumberInputField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-client/src/data/mock-data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-client/src/models/class-registration-report.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-client/src/services/reports-service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/components/ClassRegistrationReport.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "add-react-client",
-    "last_opened_file_path": "D:/User/Documents/Code Projects/CoreRFID-Exercise/source",
+    "last_opened_file_path": "D:/User/Documents/Code Projects/CoreRFID-Exercise/source/react-client/src/models",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,11 +75,16 @@
       <map>
         <entry key="com.haulmont.rcb.reactComponents" value="false" />
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
       </map>
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\Documents\Code Projects\CoreRFID-Exercise\source\react-client\src\models" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\Documents\Code Projects\CoreRFID-Exercise\source\react-client\src\components\class-registration-report" />
       <recent name="D:\User\Documents\Code Projects\CoreRFID-Exercise\source\react-client\src\components" />
       <recent name="D:\User\Documents\Code Projects\CoreRFID-Exercise\source\client\src\app" />
     </key>
@@ -91,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710611883901</updated>
       <workItem from="1710611884937" duration="8620000" />
+      <workItem from="1712085496617" duration="4144000" />
     </task>
     <task id="LOCAL-00001" summary="Added Angular application">
       <option name="closed" value="true" />
@@ -228,11 +236,30 @@
       <option name="project" value="LOCAL" />
       <updated>1711309043313</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added tailwind and copied markup from Angular client">
+      <option name="closed" value="true" />
+      <created>1711309762017</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711309762017</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Angular application" />
@@ -253,6 +280,8 @@
     <MESSAGE value="Changed placeholder to 5 as a nod" />
     <MESSAGE value="Removed debug" />
     <MESSAGE value="Added React app and updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added React app and updated readme" />
+    <MESSAGE value="Added tailwind and copied markup from Angular client" />
+    <MESSAGE value="Added and implemented react components with api request" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and implemented react components with api request" />
   </component>
 </project>
