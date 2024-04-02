@@ -13,7 +13,7 @@ An exercise given by CoreRFID to demonstrate skills in SQL, .NET and SPA develop
 - ~~Modify SPA to allow filter parameter to be passed in~~
 
 ### Personal Challenge ###
-- Create the client using React
+- ~~Create the client using React~~
 
 ## Progress ##
 #### Choose SQL Database flavour ####
@@ -90,6 +90,7 @@ is no concern due with this interpolation because of the built-in string sanitat
 - After this, I added the required HTML and styling, as well as the typescript logic to update the API call.
 - With using RxJS, I can easily filter out duplicate values to prevent multiple calls to the API when submitting a new value.
 
-#### PERSONAL CHALLENGE* - Create React Client ####
+#### *PERSONAL CHALLENGE* - Create React Client ####
 - To being my React app, I use the basic 'create-react-app' library.
-- 
+- As most of the styling can be transferred from Angular, I simply copied it all over after installing TailwindCSS.
+- Instead of using RxJS (as is standard in Angular), I adapted the data fetching using JS Fetch with promises.
